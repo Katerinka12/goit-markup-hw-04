@@ -122,7 +122,14 @@ img {
   list-style: none;
   text-decoration: none;
 }
-
+.mail-icon{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.phone-icon{
+  
+}
 .header-list .link.current {
   color: var(--secondary-text-color);
 }
