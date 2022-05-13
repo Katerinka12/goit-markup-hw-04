@@ -54,7 +54,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .header-container {
@@ -284,7 +284,8 @@ h3 {
   justify-content: space-between;
 }
 .works-title,
-.team-title {
+.team-title,
+.clients-title {
   margin-bottom: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -298,6 +299,7 @@ h3 {
 
 .name-title {
   margin-bottom: 10px;
+  padding-top: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -309,7 +311,10 @@ h3 {
 .team-text {
   text-align: center;
   padding-bottom: 30px;
-  padding-top: 30px;
+  background-color: var(--primary-bgc);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team {
   background-color: var(--secondary-bgc);
@@ -318,15 +323,78 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+.social-list {
+  display: flex;
+}
+.social-item,
+.social {
+  display: flex;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.social:last-child{margin-right: 0;}
+.social-item:last-child {
+  margin-right: 32px;
+}
+.social-item:first-child {
+  margin-left: 32px;
+}
+.social-icon {
+  fill: #afb1b8;
+}
+.social-icon-f {
+  fill: #ffffff;
+}
+.social{
+  background-color: rgba(255, 255, 255, 0.1);
+  
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+.social-link-icon{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
 
 .post-team {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 16px;
 
   color: var(--primary-text-color);
 }
 
+.clients-list {
+  display: flex;
+}
+.client-item {
+  margin-right: 30px;
+}
+.client-item:last-child {
+  margin-right: 0;
+}
+.client-link {
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+    align-items: center;
+}
+.client-icon {
+  display: flex;
+  padding: 16px 32px;
+}
 /*Footer*/
 
 .footer {
@@ -336,6 +404,7 @@ h3 {
   height: 252px;
 }
 .adress {
+  display: block;
   max-height: 83px;
   line-height: 1.71;
   font-style: normal;
@@ -343,6 +412,7 @@ h3 {
 }
 .header-title.under {
   margin-bottom: 20px;
+  margin-right: 156px;
 }
 .studio-title {
   color: var(--white-text-color);
@@ -356,6 +426,25 @@ h3 {
 }
 .adress-item:first-child {
   margin-top: 0;
+}
+
+.social-contact{
+  display: flex;
+  align-items: baseline;
+  
+}
+.social-group{
+  display: flex;
+  
+}
+.invite{
+  font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+  
+    color: var(--white-text-color);
+    margin-bottom: 20px;
 }
 
 /*Page Portfolio*/
