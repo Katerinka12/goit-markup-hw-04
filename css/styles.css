@@ -76,12 +76,12 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  margin-right: 93px;
 
   color: var(--secondary-text-color);
 }
 .web-title {
   color: #212121;
-  margin-right: 93px;
 }
 
 .header-item .link {
@@ -244,8 +244,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.advantages-item .advantages-text:last-child,
-.advantages-icon:last-child {
+.advantages-item .advantages-text:last-child{
   margin-right: 0;
 }
 h3 {
@@ -267,7 +266,6 @@ h3 {
   height: 120px;
   background-color: var(--secondary-bgc);
   border-radius: 4px;
-  margin-right: 30px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
