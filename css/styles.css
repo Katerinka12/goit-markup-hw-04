@@ -329,7 +329,7 @@ h3 {
   margin-right: 10px;
 }
 .social-item:last-child {
-  margin-right: 32px;
+  margin-right: 0px;
 }
 .social-item:first-child {
   margin-left: 32px;
