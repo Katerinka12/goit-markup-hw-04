@@ -325,9 +325,8 @@ h3 {
 .social-list {
   display: flex;
 }
-
-.social:last-child {
-  margin-right: 0;
+.social-item, .social{
+  margin-right: 10px;
 }
 .social-item:last-child {
   margin-right: 32px;
@@ -348,7 +347,6 @@ h3 {
   align-items: center;
   width: 44px;
   height: 44px;
-  margin-right: 10px;
   border-radius: 50%;
 }
 
@@ -360,6 +358,10 @@ h3 {
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
+}
+
+.social-link:last-child {
+  margin-right: 0;
 }
 .post-team {
   font-family: 'Roboto', sans-serif;
@@ -458,13 +460,12 @@ h3 {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
 }
 
-/* .social-link-icon:last-child
+.social:last-child
 {
   margin-right: 0;
-} */
+}
 .social-link-icon:hover,
 .social-link-icon:focus {
   background-color: #2196f3;
